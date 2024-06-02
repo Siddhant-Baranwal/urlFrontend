@@ -1,0 +1,134 @@
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(to right, #3d5a80, #293241);
+}
+
+.msg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.message{
+  font-size: 3vw;
+  padding: 1vw;
+  margin: 0.5vw;
+  padding-top: 0;
+  text-align: center;
+}
+
+.gif{
+  opacity: 0.1;
+  width: 40vw;
+  position: absolute;
+  top: -1vw;
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+  height: 80vh;
+}
+
+.halves{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 80vh;
+}
+
+.welcome{
+  font-size: 2vw;
+  font-weight: bold;
+  padding: 1vw;
+  margin: 0.5vw 2vw;
+  letter-spacing: 1px;
+  text-align: center;
+  border-bottom: 3px solid white;
+  transition: 0.5s ease;
+}
+
+.welcome:hover{
+  color: #293241;
+  background-color: white;
+}
+
+.form{
+  padding: 2vw;
+}
+
+.form p{
+  width: 100vw;
+  max-width: 400px;
+  font-size: 1.5vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form textarea{
+  display: block;
+  width: 100vw;
+  max-width: 400px;
+  max-height: 200px;
+  color: black;
+  font-size: 1.5vw;
+  margin: 1vw;
+  padding: 0.5vw;
+  border: none;
+  border-radius: 1vw;
+}
+
+.form button{
+  color: #3d5a80 ;
+  font-size: 1.5vw;
+  padding: 0.5vw;
+  letter-spacing: 0.5px;
+  border-radius: 0.5vw;
+  border: none;
+  background-color: white;
+}
+
+.form button:hover{
+  background-color: #3d5a80;
+  color: white;
+  box-shadow: 0 0 20px 2px #e0fbfc;
+  transition: 0.1s ease;
+}
+
+.output a{
+  font-size: 1.5vw;
+  text-decoration: none;
+  margin: 0.2vw;
+} 
+
+.success{
+  font-size: 1.7vw;
+  border-bottom: 2px solid white;
+  padding: 0.1vw;
+  margin-bottom: 2vw;
+}
+
+.output div div{
+  font-size: 2vw;
+  margin: 0.5vw;
+}
+
+@media only screen and (max-width: 800px) {
+  body{
+    background-color: red;
+  }
+}
