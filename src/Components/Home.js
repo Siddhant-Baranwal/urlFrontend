@@ -32,7 +32,7 @@ const Home = (props) => {
     .catch((error) => {
       setMessage({
         link: '#',
-        txt: 'Sorry, some error occurred.'
+        txt: 'Some error occurred, try again.'
       })
     })
     setLoad(false);

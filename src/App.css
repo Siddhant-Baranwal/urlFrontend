@@ -28,7 +28,7 @@ body{
 
 .gif{
   opacity: 0.1;
-  width: 40vw;
+  height: 80vh;
   position: absolute;
   top: -1vw;
 }
@@ -89,7 +89,6 @@ body{
   margin: 1vw;
   padding: 0.5vw;
   border: none;
-  border-radius: 1vw;
 }
 
 .form button{
@@ -115,6 +114,12 @@ body{
   margin: 0.2vw;
 } 
 
+.output a:hover{
+  text-shadow: 
+  0 0 10px #fff,
+  0 0 5px #00f;
+}
+
 .success{
   font-size: 1.7vw;
   border-bottom: 2px solid white;
@@ -127,8 +132,52 @@ body{
   margin: 0.5vw;
 }
 
-@media only screen and (max-width: 800px) {
-  body{
-    background-color: red;
+@media only screen and (max-width: 900px) {
+  .welcome{
+    font-size: 4vw;
+  }
+  .halves{
+    height: 30vh;
+    margin: 3vw;
+  }
+  .form{
+    height: 40vh;
+  }
+  .home{
+    flex-direction: column;
+    height: 90vh;
+  }
+  .form p{
+    font-size: 3.5vw;
+  }
+  .form textarea{
+    font-size: 3vw;
+    max-width: 70vw;
+    min-width: 20vw;
+  }
+  .form button{
+    font-size: 2.5vw;
+    padding: 1vw;
+    margin: 1vw;
+    font-weight: bold;
+  }
+  .output div div{
+    font-size: 2.5vw;
+    margin: 1vw;
+  }
+  .success{
+    font-size: 3.5vw;
+  }
+  .output a{
+    font-size: 3vw;
+    margin: 1vw;
+  }
+  .gif{
+    top: 10vh;
+    max-width: 90vw;
+    height: 80vh;
+  }
+  .message{
+    font-size: 4vw;
   }
 }
